@@ -1,0 +1,15 @@
+﻿  core.cpp
+X:\Projects\yNodeGUI_Sample\framework.h(42,45): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+X:\Projects\yNodeGUI_Sample\framework.h(891,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\framework.h(910,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\framework.h(912,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\framework.h(939,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\framework.h(955,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\framework.h(957,1): warning C4302: “<function-style-cast>”: 从“wchar_t *”到“TCHAR”截断
+X:\Projects\yNodeGUI_Sample\node_menu.h(268,1): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+X:\Projects\yNodeGUI_Sample\framework.h(738,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+X:\Projects\yNodeGUI_Sample\framework.h(736,1): message : 在编译 类 模板 成员函数“int GirdList<history>::getMaxPage(void)”时
+X:\Projects\yNodeGUI_Sample\framework.h(748,13): message : 查看对正在编译的函数 模板 实例化“int GirdList<history>::getMaxPage(void)”的引用
+X:\Projects\yNodeGUI_Sample\core.cpp(446,50): message : 查看对正在编译的 类 模板 实例化“GirdList<history>”的引用
+  CIFSYSTEM.vcxproj -> X:\Projects\yNodeGUI_Sample\x64\Debug\CIFSYSTEM.exe

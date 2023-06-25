@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{26727370-1ad8-45ce-87d0-fef268153c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ref">
+      <UniqueIdentifier>{5900fc35-0bcd-43a4-b21d-a83f07a3da92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ref\yNodeGUI">
+      <UniqueIdentifier>{71d97e49-a485-40a6-8151-c369d29200f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ref\CoreHead">
+      <UniqueIdentifier>{33fb2f45-dcec-4a7a-bf3b-24ab467eb70e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="yNodeGUI.h">
+      <Filter>Ref\yNodeGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="node_menu.h">
+      <Filter>Ref\yNodeGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Ref\yNodeGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="book.h">
+      <Filter>Ref\CoreHead</Filter>
+    </ClInclude>
+    <ClInclude Include="csvfile.h">
+      <Filter>Ref\CoreHead</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>Ref\CoreHead</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>Ref\CoreHead</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Ref\CoreHead</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="book.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

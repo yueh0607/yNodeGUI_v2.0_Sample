@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/library.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a7f0238cdd205411ac778a5b8a7c259f7fcb19ecc492dbb8cbbb1b7d33164647"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/library.h"
+          },
+          "hashes": {
+            "sha-256": "b07e6d7b25bf4700d6956cc791023f255dd8af5cb421434d6fc563d4b3757f3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/book.h"
+          },
+          "hashes": {
+            "sha-256": "0bc9e779e7e053c4bac0a294d0e2c3124b15706e0015859db500643d72c31384"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/csvfile.h"
+          },
+          "hashes": {
+            "sha-256": "153098cca96b1fe904a926f30db519821c252d2d2d0d48d5b76cdd6fbee60d5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/tools.h"
+          },
+          "hashes": {
+            "sha-256": "1220dfb2c927a88210e686255270e58aced94567ac9883b8f7b7c0951297716c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/history.h"
+          },
+          "hashes": {
+            "sha-256": "48e976d50c3df2c7c3ec9e1651c6b877b71ea8c0a5a2169400323dc5ae0d88f5"
+          }
+        }
+      ]
+    }
+  ]
+}

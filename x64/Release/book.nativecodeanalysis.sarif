@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/book.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "96debff4ececd07ba73824cf59b1b29e2f5053aa57400f431a7db3c8d0f01310"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/book.h"
+          },
+          "hashes": {
+            "sha-256": "0bc9e779e7e053c4bac0a294d0e2c3124b15706e0015859db500643d72c31384"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/csvfile.h"
+          },
+          "hashes": {
+            "sha-256": "153098cca96b1fe904a926f30db519821c252d2d2d0d48d5b76cdd6fbee60d5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/ynodegui_sample/tools.h"
+          },
+          "hashes": {
+            "sha-256": "1220dfb2c927a88210e686255270e58aced94567ac9883b8f7b7c0951297716c"
+          }
+        }
+      ]
+    }
+  ]
+}

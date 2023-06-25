@@ -1,0 +1,19 @@
+﻿  book.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+X:\Projects\yNodeGUI_Sample\book.cpp(23,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  core.cpp
+X:\Projects\yNodeGUI_Sample\framework.h(42,45): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+X:\Projects\yNodeGUI_Sample\node_menu.h(268,1): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+X:\Projects\yNodeGUI_Sample\framework.h(738,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+X:\Projects\yNodeGUI_Sample\framework.h(736,1): message : 在编译 类 模板 成员函数“int GirdList<history>::getMaxPage(void)”时
+X:\Projects\yNodeGUI_Sample\framework.h(748,13): message : 查看对正在编译的函数 模板 实例化“int GirdList<history>::getMaxPage(void)”的引用
+X:\Projects\yNodeGUI_Sample\core.cpp(446,50): message : 查看对正在编译的 类 模板 实例化“GirdList<history>”的引用
+  library.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  正在生成代码
+  1 of 1970 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  CIFSYSTEM.vcxproj -> X:\Projects\yNodeGUI_Sample\x64\Release\CIFSYSTEM.exe
